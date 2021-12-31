@@ -2,6 +2,7 @@ body{
   background: url("images/bg-desktop-dark.jpg") no-repeat;
   background-color: hsl(235, 21%, 11%);
   background-size: 100%;
+  color:white;
 }
 .colour{
   background-color: white;
@@ -19,6 +20,24 @@ body{
   display: flex;
   justify-content: space-between;
 }
+ul{
+  width:26.7%;
+  margin-left: 35%;
+  background-color: hsl(235, 24%, 19%);
+  margin-top: 20px;
+  margin-bottom: -20px;
+  border-radius: 5px 5px 0 0;
+  list-style-type: none;
+  
+}
+li{
+  padding: 3px;
+  height: 50px;
+
+}
+.hidden-list{
+  display: none;
+}
 .details{
   width:29%;
   display: flex;
@@ -34,7 +53,7 @@ body{
   width: 29%;
   margin-left: 35%;
   background-color: hsl(235, 24%, 19%);
-  border-radius: 5px 5px 0 0;
+
   padding: 3px;
   height: 50px;
   margin-top:20px;
