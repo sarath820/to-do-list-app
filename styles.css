@@ -1,0 +1,120 @@
+body{
+  background: url("images/bg-desktop-dark.jpg") no-repeat;
+  background-color: hsl(235, 21%, 11%);
+  background-size: 100%;
+}
+.colour{
+  background-color: white;
+}
+.to-do{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.to-do2{
+  display: flex;
+  justify-content: space-between;
+}
+.details{
+  width:29%;
+  display: flex;
+  background-color: hsl(235, 24%, 19%);
+  margin-left: 35%;
+  margin-top: 20px;
+  border-radius: 5px;
+  justify-content: space-around;
+  padding: 3px;
+  font-size:0.85rem;
+}
+.div-0{
+  width: 29%;
+  margin-left: 35%;
+  background-color: hsl(235, 24%, 19%);
+  border-radius: 5px 5px 0 0;
+  padding: 3px;
+  height: 50px;
+  margin-top:20px;
+  margin-bottom: -20px;
+  color: hsl(236, 33%, 92%);
+}
+.div-0 p {
+  display: inline-block;
+
+}
+.div-0 p:hover{
+  cursor: pointer;
+}
+.paraindiv{
+  text-decoration:line-through grey ;
+  color: grey;
+}
+.parent:hover{
+  cursor: pointer;
+}
+.three-options{
+  align-self: center;
+  justify-content: space-between;
+}
+.clear:hover{
+  color: white;
+}
+h1{
+color: white;
+font-size: 3rem;
+
+letter-spacing: 7px;
+}
+.sun{
+width:10%;
+height: 5%;
+align-self: center;
+
+
+}
+
+.typing{
+  width: 90%;
+  border-radius: 5px;
+  height: 30%;
+  padding: 15px;
+  border-style: none;
+  background-color: hsl(235, 24%, 19%);
+}
+input{
+  border-style: none;
+  background-color: hsl(235, 24%, 19%);
+}
+.box{
+  width:20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width:550px) {
+  body{
+    background: url("images/bg-mobile-dark.jpg") no-repeat;
+    background-size: 100%;
+    background-color: hsl(235, 21%, 11%);
+
+  }
+  .to-do{
+    width: 95%;
+    margin: auto;
+  }
+  .details{
+    width:90%;
+    margin: auto;
+    margin-top: 10px;
+    }
+
+    .div-0{
+      width:90% ;
+      margin:auto;
+      margin-top: 10px;
+      margin-bottom: -10px;
+     }
+}
