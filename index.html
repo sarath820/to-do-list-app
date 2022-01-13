@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="bg-1">
 
   <div class="to-do">
     <div class="to-do2">
@@ -18,24 +18,28 @@
 
 
 
-      <div class="typing">
+      <div class="typing colour-1">
         <input type="checkbox" >
-         <input class="typing-input" type="text" name="work" placeholder="create a new to do">
+         <input class="typing-input" type="text" name="work" placeholder="create a new to do" autocomplete="off">
       </div>
 
   </div>
 
-  <div class="parent">
+  <div class="parent colour-1">
     <ul class="hidden-list">
       <li></li>
     </ul>
     <div class="details">
-      <p>0 items left</p>
+      <p class = "itemsleft"><span>0</span> items left</p>
       <div class="three-options">
-        All Active Completed
+        <span class="all">All</span> <span class = "active">Active</span> <span class = "completed">Completed</span>
       </div>
       <p class = "clear">Clear Completed</p>
     </div>
+  </div>
+
+  <div class="three-options-mobile">
+    <span class="all">All</span> <span class = "active">Active</span> <span class = "completed">Completed</span>
   </div>
 
 
