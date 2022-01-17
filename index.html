@@ -5,13 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale= 1.0">
   <title>To do app </title>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Rubik:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="bg-1">
 
   <div class="to-do">
-    <div class="to-do2">
+    <div class="to-do2" >
       <h1>To Do </h1>
       <img class="sun" src="images/icon-sun.svg"></Img>
     </div>
@@ -19,7 +20,7 @@
 
 
       <div class="typing colour-1">
-        <input type="checkbox" >
+        <img src="images/icon-Check.svg" class="check">
          <input class="typing-input" type="text" name="work" placeholder="create a new to do" autocomplete="off">
       </div>
 
@@ -29,19 +30,20 @@
     <ul class="hidden-list">
       <li></li>
     </ul>
+    <!-- options tab -->
     <div class="details">
       <p class = "itemsleft"><span>0</span> items left</p>
-      <div class="three-options">
+      <div class="three-options black">
         <span class="all">All</span> <span class = "active">Active</span> <span class = "completed">Completed</span>
       </div>
-      <p class = "clear">Clear Completed</p>
+      <p class = "clear black-clear">Clear Completed</p>
     </div>
   </div>
 
-  <div class="three-options-mobile">
+  <div class="three-options-mobile colour-1">
     <span class="all">All</span> <span class = "active">Active</span> <span class = "completed">Completed</span>
   </div>
-
+<!-- ******************************** -->
 
 
   <script src="index.js" charset="utf-8"></script>
